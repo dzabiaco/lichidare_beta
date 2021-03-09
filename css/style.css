@@ -7032,3 +7032,7 @@ hr.line-bottom {
     display: flex;
     justify-content: space-around;
 }
+
+.more_products a {
+    width: 40%;
+}
