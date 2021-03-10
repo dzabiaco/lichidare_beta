@@ -476,7 +476,7 @@ img {
     height: auto;
 }
 .main-nav .navbar {
-    padding-left: 0;
+    padding-left: 20%;
     padding-right: 0;
 }
 .main-nav nav .navbar-nav .nav-item:hover a,

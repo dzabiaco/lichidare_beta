@@ -73,7 +73,7 @@
     .top-header-right {
         float: none;
         text-align: center;
-        margin-top: -2.2rem;
+        margin-top: -2.4rem;
         margin-right: -67px;
     }
     .top-header-right .phone-btn {
@@ -805,6 +805,10 @@
         text-align: center;
         align-items: center;
     }
+
+    .main-nav .navbar{
+        padding-left: 0;
+    }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .banner-slider-area .owl-nav .owl-prev {
@@ -940,9 +944,20 @@
     .top-header-form .form-group button {
         right: 10px;
     }
+
+    .main-nav .navbar{
+        padding-left: 0;
+    }
+
     .top-header-right {
         float: none;
         text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: -38px;
+        margin-left: 16rem;
+        width: 100%;
     }
     .top-header-right .phone-btn {
         margin-right: 10px;
@@ -1298,6 +1313,10 @@
     }
     .nav-other {
         display: none;
+    }
+
+    .main-nav .navbar {
+        padding-left: 0;
     }
     .navbar-category .navbar-nav .nav-item-link a {
         padding-right: 55px;
